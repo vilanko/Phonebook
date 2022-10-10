@@ -1,0 +1,71 @@
+
+ body {
+		background-position:center;
+		background-image: url("background.jpg");
+                font-size: 12px;
+				text-align:  center;
+            }
+            h1 {
+		box-shadow: 5px 5px 5px white;
+		display: block
+		margin: auto;
+		text-align: center;
+                font-size: 2em;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+                background: Moccasin;
+		opacity: 0.7;
+                padding: 2em;
+                border: thin solid white;		
+		width: 60%;
+		margin-left:15%; 
+   	        margin-right:25%;
+            }
+            h2 {
+		box-shadow: 5px 5px 5px white;
+                font-size: 2em;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+                padding: 1em;
+                border: thin solid white;
+                background: sandybrown;
+		opacity: 0.7;
+                color: white;
+				font-size: 150%
+		width: 50%;
+		margin-left:25%; 
+   	        margin-right:25%;
+		
+            }
+	    
+	    label {
+		font-variant: small-caps;
+		font-size: 150%
+
+	    }
+	    p {
+		box-shadow: 5px 5px 5px white;
+		border: thin solid white;
+		opacity: 0.9;
+		width: 20%;
+		margin-left:39%; 
+   	        margin-right:41%;
+		font-size: 1.5em;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		padding: 1em;
+		list-style-type: square;
+		vertical-align: middle;
+	    }
+	    table, th, td {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		border: 1px solid brown;
+		font-size: 1.1em;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	    }
+	    table {
+		background: Moccasin;
+		border: 1px solid brown;
+		opacity: 0.8;
+		width: 60%;
+		margin-left:20%; 
+   	        margin-right:20%;
+
+		}
