@@ -1,0 +1,19 @@
+<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>Le formulaire</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+		</head>
+		<body>
+            <h1>Repertoire telephonique</h1>
+            <h2>Replacer un numero</h2>
+			<form action="http://localhost:5000/choix_fait" method="post">
+					<label>Nom</label> : <input type="text" name="nom" />
+					<label>Numero</label> : <input type="text" name="numero" />
+					<input type="submit" value="Valider" />
+			</form>
+            <p><a href="{{ url_for('index')}}"" style="color: Black">retour au menu principale</a></p>
+		</body>
+	</html>
+			

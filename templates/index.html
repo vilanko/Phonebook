@@ -1,0 +1,17 @@
+<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>Le formulaire</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+		</head>
+		<body>
+            <h1>Repertoire telephonique</h1>
+            <h2>Menu</h2>
+	    <p><a href="{{ url_for('total')}}"" style="color: Black">La totalite du repertoire</a></p>
+            <p><a href="{{ url_for('ajout')}}"" style="color: Black">Ajouter un numero</a></p>
+            <p><a href="{{ url_for('recherche')}}"" style="color: Black">Rechercher un numero</a></p>
+	    <p><a href="{{ url_for('supprimer')}}"" style="color: Black">Supprimer un numero</a></p>
+		</body>
+	</html>
+			

@@ -1,0 +1,14 @@
+<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>Le formulaire</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+		</head>
+		<body>
+            <h1>Repertoire telephonique</h1>
+            <h2>Supprimer un numero</h2>
+            <p>Le numero de telephone {{numero}} a bien ete supprime</p>
+            <p><a href="{{ url_for('index')}}"" style="color: Black">retour au menu principale</a></p>
+		</body>
+	</html>

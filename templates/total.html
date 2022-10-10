@@ -1,0 +1,17 @@
+<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>Le formulaire</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+		</head>
+		<body>
+            <h1>Repertoire telephonique</h1>
+            <h2>Afficher la totalite du repertoire telephonique</h2>
+			<form action="http://localhost:5000/res_total" method="post">
+					<input type="submit" style="background: #F4A460; color: white; border-style:outset; border-color: black;height: 20px; width: 80px; font-family: Georgia, 'Times New Roman', Times, serif;" value="Valider" />
+			</form>
+            <p><a href="{{ url_for('index')}}"" style="color: Black">retour au menu principale</a></p>
+		</body>
+	</html>
+			
